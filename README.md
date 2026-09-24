@@ -2,16 +2,27 @@
 
 ## 📌 Project Description
 
-RESQ Safety App is a simple web-based emergency safety application designed to provide quick access to emergency services and useful safety information.
+RESQ Safety App is a simple web-based emergency safety application designed to provide quick access to emergency services, location sharing, nearby hospital information, safety tips, and basic first-aid guidance.
+
+The application brings important emergency and safety features together in a single, easy-to-use web interface.
+
+The project is developed using HTML, CSS, and JavaScript and is hosted using GitHub Pages.
+
+---
 
 ## 🎯 Objectives
 
-- Provide quick access to emergency services
-- Provide an emergency SOS button
-- Help users access police, ambulance and fire services
-- Provide basic safety tips
-- Provide basic first-aid information
-- Make emergency information easily accessible
+- Provide quick access to emergency services.
+- Provide an emergency SOS option.
+- Help users contact emergency services quickly.
+- Allow users to share their current location.
+- Help users find nearby hospitals.
+- Provide basic safety information.
+- Provide basic first-aid guidance.
+- Create a simple and mobile-friendly safety application.
+- Deploy the application online using GitHub Pages.
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -20,42 +31,58 @@ RESQ Safety App is a simple web-based emergency safety application designed to p
 - JavaScript
 - GitHub
 - GitHub Pages
+- Web Browser
+
+---
 
 ## ✨ Features
 
 ### 🚨 Emergency SOS
-Provides a quick emergency calling option.
+
+Provides a quick emergency calling option using the phone's calling interface on supported devices.
 
 ### 🚓 Police
-Provides quick access to emergency services.
+
+Provides a quick-access option for contacting emergency services.
 
 ### 🚑 Ambulance
-Provides quick access to medical emergency services.
+
+Provides a quick-access option for medical emergency services.
 
 ### 🔥 Fire Service
-Provides quick access to fire emergency services.
+
+Provides a quick-access option for emergency fire services.
 
 ### 📍 Location Sharing
-Allows the user to share their current location.
+
+Uses the browser's location functionality to obtain the user's current location and provides a location-sharing option.
+
+### 🏥 Nearby Hospital
+
+Provides a quick option to search for hospitals near the user's location using Google Maps.
 
 ### 🛡️ Safety Tips
-Provides useful information for staying safe during emergencies.
 
-### 🏥 Basic First Aid
-Provides basic first-aid information.
+Provides useful safety information to help users respond appropriately during emergency situations.
 
-## ☁️ Deployment
+### 🧰 First-Aid Guide
 
-The application is hosted using GitHub Pages.
+Provides basic information related to:
 
-## 📱 Platform
+- 🩹 Cuts
+- 🔥 Burns
+- 🤕 Fractures
+- 😵 Fainting
+- 🫁 Choking
 
-The application can be accessed through a web browser on computers and mobile devices.
+---
 
-## 👩‍💻 Project Type
+## 💻 Project Structure
 
-Internship Mini Project
+The current project uses a simple structure:
 
-## 📄 Conclusion
-
-RESQ Safety App demonstrates how basic web technologies can be used to create a simple emergency safety application. The project provides quick access to emergency services and useful safety information through a single web interface.
+```text
+resq-safety-app/
+│
+├── index.html
+└── README.md
